@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1E1E1E;
+  color: #FFFFFF;
+  font-family: "Lato";
+  overflow: hidden;
+}
+
+.song-preview-card {
+  margin: 138px 16px 137px 16px;
+  display: flex;
+  flex-direction: column;
+  background-color: #9296C4;
+  border-radius: 24px;
+  width: 343px;
+  height: 537px;
+}
+
+.song-preview-card__image-container {
+  margin: 40px 16px 0 16px;
+}
+
+.song-preview-card__image {
+  border-radius: 16px;
+  width: 313px;
+}
+
+.song-preview-card__title {
+  font-size: 24px;
+  margin-left: 32px;
+}
+
+.song-preview-card__artist-and-time,
+.song-preview-card__time {
+  display: flex;
+  justify-content: space-between;
+}
+
+.song-preview-card__album-cover-and-info,
+.song-preview-card__album-info-container {
+  display: flex;
+}
+
+.song-preview-card__artist-and-time {
+  border-bottom: solid 0.5px rgba(255, 255, 255, 0.5);
+  padding-bottom: 20px;
+  margin: 12px 32px 0 32px;
+  font-size: 18px;
+}
+
+.song-preview-card__time-icon-container {
+  font-size: 20px;
+  margin-right: 8px;
+}
+
+.album-cover_image {
+  border-radius: 50%;
+}
+
+.song-preview-card__album-cover-and-info {
+  margin-left: 32px;
+  margin-right: 33px;
+  margin-bottom: 32px;
+}
+
+.song-preview-card__album-cover-container {
+  width: 40px;
+  margin-top: 24px;
+}
+
+.song-preview-card__album-info-container {
+  margin-top: 34px;
+  margin-left: 16px;
+  font-size: 18px;
+}
+
+.song-preview-card__album-info-dot-spacer {
+  margin-left: 4px;
+  margin-right: 4px;
+  opacity: 0.5;
+}
+
+@media (min-height: 1194px) and (orientation: portrait) {
+  .song-preview-card {
+    margin: 293px 211px 294px 210px;
+    width: 413px;
+    height: 607px;
+  }
+  .song-preview-card__image-container {
+    margin: 16px 16px 0 16px;
+  }
+  .song-preview-card__title {
+    margin-top: 24px;
+  }
+  .song-preview-card__image {
+    width: 381px;
+  }
+  .song-preview-card__artist-and-time {
+    border-bottom: solid 0.5px rgba(255, 255, 255, 0.5);
+    padding-bottom: 26px;
+  }
+  .song-preview-card__album-cover-and-info {
+    margin-right: 49px;
+  }
+  .song-preview-card__album-info-container {
+    margin-top: 31px;
+  }
+}
+@media (min-width: 1440px) and (orientation: landscape) {
+  .song-preview-card {
+    margin: 101px 513px 102px 514px;
+    width: 413px;
+    height: 607px;
+  }
+  .song-preview-card__image-container {
+    margin: 16px 16px 0 16px;
+  }
+  .song-preview-card__title {
+    margin-top: 24px;
+  }
+  .song-preview-card__image {
+    width: 381px;
+  }
+  .song-preview-card__artist-and-time {
+    border-bottom: solid 0.5px rgba(255, 255, 255, 0.5);
+    padding-bottom: 22px;
+  }
+  .song-preview-card__album-cover-and-info {
+    margin-right: 49px;
+  }
+  .song-preview-card__album-info-container {
+    margin-top: 31px;
+  }
+}/*# sourceMappingURL=style.css.map */
